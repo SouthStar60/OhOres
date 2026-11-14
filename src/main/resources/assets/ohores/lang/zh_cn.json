@@ -1,0 +1,21 @@
+{
+  "block.ohores.rare_ore_extractor": "稀有矿物提取器",
+  "gui.ohores.click_target": "点击选择要提取的矿物",
+  "gui.ohores.consumable_empty": "配置里没有可用的消耗品",
+  "gui.ohores.consumable_hint": "等级越高，同样产出需要的数量越多（小数向上取整）",
+  "gui.ohores.consumable_title": "可用的消耗品",
+  "gui.ohores.grade": "贫矿等级 %s",
+  "gui.ohores.input": "输入",
+  "gui.ohores.missing_consumable": "此消耗品不存在",
+  "gui.ohores.missing_ore": "此矿物不存在",
+  "gui.ohores.no_match": "没有匹配的条目",
+  "gui.ohores.none": "未配置矿物",
+  "gui.ohores.ore_row": "%s 秒 · 消耗 %s 个",
+  "gui.ohores.remaining": "剩余 %s 秒",
+  "gui.ohores.search": "搜索名称或物品 id",
+  "gui.ohores.seconds": "%s 秒",
+  "gui.ohores.select_title": "选择要提取的矿物",
+  "gui.ohores.target": "目标",
+  "gui.ohores.total": "总耗时 %s 秒",
+  "itemGroup.ohores": "OhOres"
+}

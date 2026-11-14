@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ohores:block/rare_ore_extractor"
+    },
+    "facing=south": {
+      "model": "ohores:block/rare_ore_extractor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ohores:block/rare_ore_extractor",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "ohores:block/rare_ore_extractor",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "block.ohores.rare_ore_extractor": "Rare Ore Extractor",
+  "gui.ohores.click_target": "Click to choose the ore",
+  "gui.ohores.consumable_empty": "No consumable configured",
+  "gui.ohores.consumable_hint": "Higher grade needs more items for the same ore (rounded up)",
+  "gui.ohores.consumable_title": "Usable consumables",
+  "gui.ohores.grade": "poor grade %s",
+  "gui.ohores.input": "Input",
+  "gui.ohores.missing_consumable": "This consumable does not exist",
+  "gui.ohores.missing_ore": "This ore does not exist",
+  "gui.ohores.no_match": "No match",
+  "gui.ohores.none": "Nothing configured",
+  "gui.ohores.ore_row": "%ss · costs %s",
+  "gui.ohores.remaining": "Left %ss",
+  "gui.ohores.search": "Search name or id",
+  "gui.ohores.seconds": "%ss",
+  "gui.ohores.select_title": "Choose the ore",
+  "gui.ohores.target": "Target",
+  "gui.ohores.total": "Takes %ss",
+  "itemGroup.ohores": "OhOres"
+}

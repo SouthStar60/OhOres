@@ -1,0 +1,30 @@
+// Gradle init script: redirect the (blocked) official NeoForged maven to a public mirror.
+def mirrorUrl = 'https://mirrors.cernet.edu.cn/bmclapi'
+
+def fixHandler
+fixHandler = { handler ->
+    handler.withType(MavenArtifactRepository).configureEach { repo ->
+        try {
+            def u = repo.url.toString()
+            if (u.contains('maven.neoforged.net')) {
+                repo.url = mirrorUrl
+            }
+        } catch (Exception ignored) {
+        }
+    }
+}
+
+settingsEvaluated { settings ->
+    fixHandler(settings.pluginManagement.repositories)
+    fixHandler(settings.dependencyResolutionManagement.repositories)
+}
+
+gradle.beforeProject { p ->
+    fixHandler(p.buildscript.repositories)
+    fixHandler(p.repositories)
+}
+
+gradle.afterProject { p ->
+    fixHandler(p.buildscript.repositories)
+    fixHandler(p.repositories)
+}

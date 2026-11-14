@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "ohores"
+version = "1.0.0"
+displayName = "OhOres"
+authors = "Doubao, SouthStar60"
+description = '''
+OhOres
+在配置文件中修改相关内容。
+'''
+logoFile = "logo.png"
+
+[[dependencies.ohores]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ohores]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"

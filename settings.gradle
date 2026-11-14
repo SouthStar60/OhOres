@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'NeoForgedMirror'
+            url = 'https://mirrors.cernet.edu.cn/bmclapi'
+        }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'OhOres'

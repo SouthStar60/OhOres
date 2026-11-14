@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "ohores:block/rare_ore_extractor_top",
+    "bottom": "ohores:block/rare_ore_extractor_bottom",
+    "side": "ohores:block/rare_ore_extractor_side",
+    "front": "ohores:block/rare_ore_extractor_front"
+  }
+}
